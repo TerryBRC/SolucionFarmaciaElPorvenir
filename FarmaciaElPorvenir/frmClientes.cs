@@ -1,4 +1,5 @@
 ﻿using DevExpress.Utils.DirectXPaint;
+using DevExpress.Xpo;
 using FarmaciaElPorvenir.el_porvenirdb;
 using System;
 using System.Collections.Generic;
@@ -18,16 +19,20 @@ namespace FarmaciaElPorvenir
         {
             InitializeComponent();
         }
-        private void HabilitarBotones(bool b)
+        private void ActualizarEstadoBotones(bool nuevo, bool guardar, bool eliminar, bool cancelar, bool actualizar, bool camposHabilitados)
         {
-            btnNuevo.Enabled = !b;
-            btnGuardar.Enabled = b;
-            btnEliminar.Enabled = b;
-            btnCancelar.Enabled = b;
-            txtDir.Enabled = b;
-            txtNombre.Enabled = b;
-            txtTel.Enabled = b;
+            btnNuevo.Enabled = nuevo;
+            btnGuardar.Enabled = guardar;
+            btnEliminar.Enabled = eliminar;
+            btnCancelar.Enabled = cancelar;
+            btnActualizar.Enabled = actualizar;
+
+            // Habilitar o deshabilitar los campos
+            txtDir.Enabled = camposHabilitados;
+            txtNombre.Enabled = camposHabilitados;
+            txtTel.Enabled = camposHabilitados;
         }
+
         private void Limpiar()
         {
             txtNombre.Clear();
@@ -37,21 +42,21 @@ namespace FarmaciaElPorvenir
         }
         private void btnNuevo_Click(object sender, EventArgs e)
         {
-            
-            HabilitarBotones(true);
+
+            ActualizarEstadoBotones(false,true,true,true,false,true);
             Limpiar();
         }
 
         private void frmClientes_Load(object sender, EventArgs e)
         {
-            HabilitarBotones(false);
+            ActualizarEstadoBotones(true,false,false,false,false,false);
         }
 
         private void gridViewClientes_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
         {
             if (e.RowHandle>=0)
             {
-                HabilitarBotones(true);
+                ActualizarEstadoBotones(false,false,true,true,true,true);
                 string nombre = gridViewClientes.GetRowCellValue(e.RowHandle, "Nombre_Completo").ToString();
                 string dir = gridViewClientes.GetRowCellValue(e.RowHandle, "Direccion").ToString();
                 string tel = gridViewClientes.GetRowCellValue(e.RowHandle, "Telefono").ToString();
@@ -74,7 +79,7 @@ namespace FarmaciaElPorvenir
                     unitOfWorkCliente.CommitChanges();
                     xpCollectionCliente.Reload();
                     Limpiar();
-                    HabilitarBotones(false);
+                    ActualizarEstadoBotones(true, false, false, false, false, false);
                 }
             }
             else
@@ -86,58 +91,103 @@ namespace FarmaciaElPorvenir
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             // Verificar si los campos obligatorios están vacíos
-            if (string.IsNullOrEmpty(txtNombre.Text) ||
-                string.IsNullOrEmpty(txtTel.Text) || string.IsNullOrEmpty(txtDir.Text))
+            if (string.IsNullOrEmpty(txtNombre.Text)||string.IsNullOrEmpty(txtDir.Text)||string.IsNullOrEmpty(txtTel.Text))
+            {
+                MessageBox.Show("Campos Requeridos", "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            try
+            {
+                // Crear o buscar el rol en la base de datos
+                Cliente c = new Cliente(unitOfWorkCliente);
+
+
+                // Asignar los valores a las propiedades del rol
+                c.Nombre_Completo = txtNombre.Text;
+                c.Direccion = txtDir.Text;
+                c.Telefono = int.Parse(txtTel.Text);
+
+                // Guardar los cambios
+                c.Save();
+                unitOfWorkCliente.CommitChanges();
+
+                // Limpiar los controles del formulario
+                Limpiar();
+
+                // Mostrar un mensaje de éxito
+                MessageBox.Show("Guardado Exitoso", "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Recargar la colección de roles para reflejar los cambios
+                xpCollectionCliente.Reload();
+                ActualizarEstadoBotones(true, false, false, false, false, false);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error " + ex, "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            ActualizarEstadoBotones(true, false, false, false, false, false);
+            Limpiar();
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            // Verificar si los campos obligatorios están vacíos
+            if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDir.Text) || string.IsNullOrEmpty(txtTel.Text))
             {
                 MessageBox.Show("Campos Requeridos", "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
-            // Crear o buscar el cliente en la base de datos
-            Cliente c;
+            // Verificar si se ha seleccionado una fila en el gridViewRoles
             int id = (int)gridViewClientes.GetFocusedRowCellValue("Id");
-
-            if (id > 0)
+            if (id <= 0)
             {
-                // Si el ID es válido y mayor a 0, buscar el cliente existente
-                c = unitOfWorkCliente.GetObjectByKey<Cliente>(id);
+                MessageBox.Show("Por favor, seleccione un rol para actualizar.", "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+                // Buscar el rol en la base de datos
+                Cliente c = unitOfWorkCliente.GetObjectByKey<Cliente>(id);
                 if (c == null)
                 {
-                    MessageBox.Show("Cliente no encontrado", "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Rol no encontrado", "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
+
+                // Asignar los valores a las propiedades del rol
+                c.Nombre_Completo = txtNombre.Text;
+                c.Direccion = txtDir.Text;
+                c.Telefono = int.Parse(txtTel.Text);
+
+                // Guardar los cambios
+                c.Save();
+                unitOfWorkCliente.CommitChanges();
+
+                // Limpiar los controles del formulario
+                Limpiar();
+
+                // Mostrar un mensaje de éxito
+                MessageBox.Show("Actualización Exitosa", "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Recargar la colección de roles para reflejar los cambios
+                xpCollectionCliente.Reload();
+                ActualizarEstadoBotones(true, false, false, false, false, false);
             }
-            else
+            catch (Exception ex)
             {
-                // Si el ID no es válido o es 0, crear un nuevo cliente
-                c = new Cliente(unitOfWorkCliente);
+                MessageBox.Show("Error: " + ex.Message, "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            // Asignar los valores a las propiedades del cliente
-            c.Nombre_Completo = txtNombre.Text;
-            c.Telefono = int.Parse(txtTel.Text);
-            c.Direccion = txtDir.Text;
-
-            // Guardar los cambios
-            c.Save();
-            unitOfWorkCliente.CommitChanges();
-
-            // Limpiar los controles del formulario
-            Limpiar();
-
-            // Mostrar un mensaje de éxito
-            string mensaje = (id > 0) ? "Actualización Exitosa" : "Guardado Exitoso";
-            MessageBox.Show(mensaje, "Información del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            // Recargar la colección de clientes para reflejar los cambios
-            xpCollectionCliente.Reload();
-            HabilitarBotones(false);
-        }
-
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
-            HabilitarBotones(false);
-            Limpiar();
+            
         }
     }
 }

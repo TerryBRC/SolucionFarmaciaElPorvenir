@@ -227,6 +227,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ListaClientes";
+            this.Text = "Reporte de Clientes";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl)).EndInit();
             this.layoutControl.ResumeLayout(false);

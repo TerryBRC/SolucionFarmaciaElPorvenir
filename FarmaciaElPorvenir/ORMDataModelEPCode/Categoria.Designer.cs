@@ -26,13 +26,12 @@ namespace FarmaciaElPorvenir.el_porvenirdb
             get { return fId; }
             set { SetPropertyValue<int>(nameof(Id), ref fId, value); }
         }
-        string fCategoria1;
+        string fCategorias;
         [Size(50)]
-        [Persistent(@"Categoria")]
-        public string Categoria1
+        public string Categorias
         {
-            get { return fCategoria1; }
-            set { SetPropertyValue<string>(nameof(Categoria1), ref fCategoria1, value); }
+            get { return fCategorias; }
+            set { SetPropertyValue<string>(nameof(Categorias), ref fCategorias, value); }
         }
         string fDescripcion;
         [Size(SizeAttribute.Unlimited)]

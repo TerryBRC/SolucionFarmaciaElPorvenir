@@ -26,14 +26,13 @@ namespace FarmaciaElPorvenir.el_porvenirdb
             get { return fId; }
             set { SetPropertyValue<int>(nameof(Id), ref fId, value); }
         }
-        string fRol1;
+        string fNombre_Rol;
         [Indexed(Name = @"Rol", Unique = true)]
         [Size(50)]
-        [Persistent(@"Rol")]
-        public string Rol1
+        public string Nombre_Rol
         {
-            get { return fRol1; }
-            set { SetPropertyValue<string>(nameof(Rol1), ref fRol1, value); }
+            get { return fNombre_Rol; }
+            set { SetPropertyValue<string>(nameof(Nombre_Rol), ref fNombre_Rol, value); }
         }
         [Association(@"UsuarioReferencesRol")]
         public XPCollection<Usuario> Usuarios { get { return GetCollection<Usuario>(nameof(Usuarios)); } }
