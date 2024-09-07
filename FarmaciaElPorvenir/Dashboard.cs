@@ -197,12 +197,12 @@ namespace FarmaciaElPorvenir
             try
             {
                 // Verifica si el formulario ya está abierto
-                Inventario formularioExistente = null;
+                FInventario formularioExistente = null;
                 foreach (Form form in this.MdiChildren)
                 {
-                    if (form is Inventario)
+                    if (form is FInventario)
                     {
-                        formularioExistente = (Inventario)form;
+                        formularioExistente = (FInventario)form;
                         break;
                     }
                 }
@@ -210,7 +210,7 @@ namespace FarmaciaElPorvenir
                 // Si el formulario no está abierto, crea una nueva instancia y muéstrala
                 if (formularioExistente == null)
                 {
-                    Inventario nuevoFormulario = new Inventario();
+                    FInventario nuevoFormulario = new FInventario();
                     nuevoFormulario.MdiParent = this;
                     nuevoFormulario.Show();
                 }

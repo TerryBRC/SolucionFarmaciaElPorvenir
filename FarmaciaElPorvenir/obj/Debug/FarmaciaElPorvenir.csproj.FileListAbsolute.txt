@@ -1,3 +1,10 @@
+C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Xpo.v24.1.xml
+C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraCharts.v24.1.xml
+C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraReports.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\FarmaciaElPorvenir.exe.config
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\FarmaciaElPorvenir.exe
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\FarmaciaElPorvenir.pdb
@@ -18,7 +25,6 @@ C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bi
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.RichEdit.v24.1.Export.dll
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
-C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Utils.v24.1.dll
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Utils.v24.1.UI.dll
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Xpo.v24.1.dll
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraBars.v24.1.dll
@@ -57,19 +63,13 @@ C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bi
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Utils.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Utils.v24.1.UI.xml
-C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.Xpo.v24.1.xml
-C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraBars.v24.1.xml
-C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraCharts.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraDiagram.v24.1.xml
-C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraEditors.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraGauges.v24.1.Core.xml
-C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraGrid.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraLayout.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraNavBar.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraPivotGrid.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
-C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraReports.v24.1.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraReports.v24.1.CodeCompletion.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraReports.v24.1.Extensions.xml
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\bin\Debug\DevExpress.XtraRichEdit.v24.1.xml
@@ -83,7 +83,7 @@ C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\ob
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\obj\Debug\FarmaciaElPorvenir.frmEmpleado.resources
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\obj\Debug\FarmaciaElPorvenir.frmRol.resources
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\obj\Debug\FarmaciaElPorvenir.frmClientes.resources
-C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\obj\Debug\FarmaciaElPorvenir.Inventario.resources
+C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\obj\Debug\FarmaciaElPorvenir.FInventario.resources
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\obj\Debug\FarmaciaElPorvenir.Properties.Resources.resources
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\obj\Debug\FarmaciaElPorvenir.Reportes.ListaClientes.resources
 C:\Users\Admin\Documents\Github\SolucionFarmaciaElPorvenir\FarmaciaElPorvenir\obj\Debug\FarmaciaElPorvenir.csproj.GenerateResource.cache
