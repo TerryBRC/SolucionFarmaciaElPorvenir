@@ -54,6 +54,7 @@ namespace FarmaciaElPorvenir
                 ActualizarEstadoBotones(false, false, true, true, true, true);
 
                 string nombre = gridViewRoles.GetRowCellValue(e.RowHandle, "Nombre_Rol").ToString();
+
                 txtRol.Text = nombre;
                 
             }

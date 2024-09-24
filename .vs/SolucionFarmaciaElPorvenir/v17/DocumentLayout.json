@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\farmaciaelporvenir\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|solutionrelative:farmaciaelporvenir\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|c:\\users\\admin\\documents\\github\\solucionfarmaciaelporvenir\\farmaciaelporvenir\\finventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|solutionrelative:farmaciaelporvenir\\finventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\farmaciaelporvenir\\finventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|solutionrelative:farmaciaelporvenir\\finventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\farmaciaelporvenir\\finventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|solutionrelative:farmaciaelporvenir\\finventario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\farmaciaelporvenir\\frmrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|solutionrelative:farmaciaelporvenir\\frmrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\farmaciaelporvenir\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|solutionrelative:farmaciaelporvenir\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\farmaciaelporvenir\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{709BBDBB-D63E-438C-BFD4-4F9AC3142520}|FarmaciaElPorvenir\\FarmaciaElPorvenir.csproj|solutionrelative:farmaciaelporvenir\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,98 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FInventario.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\FInventario.Designer.cs",
-              "RelativeDocumentMoniker": "FarmaciaElPorvenir\\FInventario.Designer.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\FInventario.Designer.cs",
-              "RelativeToolTip": "FarmaciaElPorvenir\\FInventario.Designer.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAuwI4AAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T01:08:37.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FInventario.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\FInventario.cs",
-              "RelativeDocumentMoniker": "FarmaciaElPorvenir\\FInventario.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\FInventario.cs",
-              "RelativeToolTip": "FarmaciaElPorvenir\\FInventario.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAiwGQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:30:35.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FInventario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\FInventario.cs",
-              "RelativeDocumentMoniker": "FarmaciaElPorvenir\\FInventario.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\FInventario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FarmaciaElPorvenir\\FInventario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:30:04.771Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\Program.cs",
-              "RelativeDocumentMoniker": "FarmaciaElPorvenir\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\Program.cs",
-              "RelativeToolTip": "FarmaciaElPorvenir\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:44:09.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmRol.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\frmRol.cs",
-              "RelativeDocumentMoniker": "FarmaciaElPorvenir\\frmRol.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\frmRol.cs",
-              "RelativeToolTip": "FarmaciaElPorvenir\\frmRol.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAiwHgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:32:58.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\Dashboard.cs",
-              "RelativeDocumentMoniker": "FarmaciaElPorvenir\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\Dashboard.cs",
-              "RelativeToolTip": "FarmaciaElPorvenir\\Dashboard.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAAwMQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:30:23.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\Dashboard.cs",
-              "RelativeDocumentMoniker": "FarmaciaElPorvenir\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\Github\\SolucionFarmaciaElPorvenir\\FarmaciaElPorvenir\\Dashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FarmaciaElPorvenir\\Dashboard.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:30:19.071Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
